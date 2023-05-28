@@ -1,0 +1,137 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+}
+
+/*header*/
+.headers{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    padding: 10px 50px 30px;
+    justify-content: space-between;
+    font-family: hero;
+    width:inherit
+}
+
+/*Sign-Up button */
+.headers .header-1 button{
+    border: #1f2937;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    width: 100px;
+}
+
+/*menu header container */
+.headers .header-2 > div{
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+
+/*header container flex items */
+.headers .header-2 > div > div{
+    padding: 20px;
+    float: right;
+    justify-content: center;
+}
+
+.headers .header-2 img{
+    background-color: #acaeb16e;
+    min-width: 250px;
+    min-height: 100px;
+}
+
+.headers .header-2 .img-text{
+    position: absolute;
+    left: 994px;
+    top: 145px;
+}
+
+/*detail section */
+#detail-info{
+    margin-bottom: 100px;
+}
+
+
+#detail-info > h1{
+    text-align: center;
+}
+
+/*detail section img container*/
+#detail-info > div{
+    display: flex;
+    justify-content: center;
+}
+
+/*img container flex items img */
+#detail-info > div figure img{
+    border: 2px solid #3882f6;
+    margin: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+} 
+
+/*img container caption */
+#detail-info > div figure figcaption{
+    text-align: center;
+}
+
+/*quote section container */
+.quote{
+    background-color: #E5E7EB;
+    padding: 30px;
+}
+.quote figure blockquote{
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote figure  figcaption{
+    text-align:end
+}
+
+/*summary and next steps container */
+.final-info-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 60px;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.final-info-container .final-info{
+    color: #E5E7EB;
+}
+.final-info-container button{
+    background-color: #3882f6;
+    border: 2px #E5E7EB ridge;
+    width: 100px;
+    border-radius: 6px;
+    color: #E5E7EB;
+    padding: 2px;
+    height: 30px;
+}
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    background-color: #1f2937;
+    width:auto;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    color: #E5E7EB;
+}
